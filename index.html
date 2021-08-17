@@ -1,0 +1,204 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block styles %}
+    <style>
+        .progress{
+            height: 10px;
+        }
+        .progress .sr-only { position: relative; }
+        .sideinfo{background-color:#959ba5;}
+    </style>
+{% endblock %}
+
+{% block profileHeading %}
+<div class="row">
+    <div class="col-sm-3 sideinfo">
+        <img src="{% static 'img/AdegokeOluwatobiPassportPhoto.jpg' %}" class="img img-responsive img-circle" width="100px" height="auto" >
+        <h3>Oluwatobi S. ADEGOKE</h3>
+        <h4>Sec + | ITIL | HCNA | BENG. | NSE |</h4>
+
+        <div class="row">
+            <div class="col-sm-12">
+
+                <h5><i class="fa fa-phone-square" aria-hidden="true"></i>&ensp;+234 7031 598162</h5>
+                <h5><i class="fa fa-envelope" aria-hidden="true"></i>&ensp;sam16.oluwatobi@gmail.com</h5>
+                <h5><i class="fa fa-desktop" aria-hidden="true"></i>&ensp;<a href="http://www.sammiie.pythonanywhere.com/about/">sammiie.pythonanywhere.com/about</a></h5>
+                <h5><i class="fa fa-linkedin-square" aria-hidden="true"></i>&ensp;<a href="https://ng.linkedin.com/in/oluwatobi-samuel-adegoke-800984b6">linkedin.com/in/oluwatobi-samuel-adegoke</a></h5>
+                <h5><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;11, Aliu Street, Oribanwa, Ibeju Lekki, Lagos, Nigeria.</h5>
+
+            </div>
+        </div>
+
+        <h4><i class="fa fa-user" aria-hidden="true"></i>&ensp;&ensp;<b>Profile</b></h4>
+        <p>Skilled and experienced IT professional with 6 years of extensive hands-on Network Administration, Active Directory administration, Data management,
+        windows administration & troubleshooting. Designed, installed, configured and maintained routed LAN and WAN networks. An individual with innovative and extensive experience in managing,
+        leading project teams, implementing technology systems. A team player with good communication skills who also can work well independently with minimal supervision and can interface all levels..</p>
+
+        <h4><i class="fa fa-cogs" aria-hidden="true"></i>&ensp;&ensp;<b>Technical Skills</b></h4>
+        <div class="row">
+            <div class="col-xs-12">
+                python
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Telecommunication
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Network Management
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                TCP/IP
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                LAN/WAN Technology
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Software Testing/support
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Routing and Switching
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Cyberoam Administration
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Project management
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                Django
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                VSAT
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div class="col-sm-8 col-sm-offset-1">
+        <h4><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;&emsp;<b>Experience</b></h4><hr >
+
+        <ul class="list-unstyled">
+            <li><h4>IT Officer | Plan International Nigeria | Maiduguri</h4>
+                <ul>
+                    <li>Network Administration/Manageent</li>
+                    <li>ADManager and Active Directory Administration</li>
+                    <li>End users technical support</li></li>
+                    <li>Assets Management</li>
+                    <li>Maintain agreed levels of SLA (service Level Agreement) and OLAs (Operational Level Agreement)</li>
+                    <li>Recommend and advise on selection of IT service providers for supplies and maintenance of IT equipment for the Field Offices</li>
+                    <li>Participate in system/project testing, rollout and certification</li>
+                    <li>Train staff on cyber threat and advise on how to identify phising emails.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="list-unstyled">
+            <li><h4>IT Officer, Proforce Defence Ltd, Lagos</h4>
+                <ul>
+                    <li>Built the most cost-effective and efficient system to achieve central information processing system to support efficient data management and communications</li>
+                    <li>Responsible for implementing and maintaining company's technology infrastructure. </li>
+                    <li>Investigating, diagnosing and solving computer software and hardware faults</li>
+                    <li>Planning and undertaking scheduled maintenance upgrades</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled">
+            <li><h4>Regional Technical Support Engineer, Sumeru Nigeria Ltd, Lagos</h4>
+                <ul>
+                    <li>Interface with clients (system user) to understand the scope of project.</li>
+                    <li>Test the application on both Desktop and mobile environment</li>
+                    <li>Understand the implementation effort; communicate progress to customer and project manager</li>
+                    <li>Take ownership of technical issues and work with the development team to form cohesive client solutions</li>
+                    <li>Work with clients to implement best practices and troubleshoot issues</li>
+                    <li>Provide product training to customers as required</li>
+                    <li>Investigate and troubleshoot issues and developing solutions for our clients while understanding their business needs</li>
+                    <li>Create and improve product documentation as needed</li>
+                    <li>Communicate with peers, Engineers, Operations and Management to understand product specifications and root causes of issues</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled">
+            <li><h4>Technical Support Engineer, CBC Netcomms Ltd</h4>
+                <ul>
+                    <li>Installation of radios, P2P, P2MP links, WLAN & LAN setups and deployment (Dragon wave radios, UBNT radios, Radwin, Unifi APs, Wireless/Mikrotik router boards, Cisco linksys etc.)</li>
+                    <li>Evaluates network/systems, performance capacity and compatibity with existing systems</li>
+                    <li>Install, configure, maintain, and support Network equipment and network operating systems (e.g. routers & switches with VLAN segmentation)</li>
+                    <li>Cyberoam configuration, deployment and administration for QoS, VPN, Controlled and Managed LAN (Blocking torrent, YouTube, Facebook etc. during work hours for productivity)</li>
+                    <li>Recommend and modify network configuration to improve efficiency and cost effectiveness</li>
+                    <li>Monitor network traffic, usage, and performance</li>
+                    <li>Perform analysis of network efficiency, traffic routing and troubleshoot network/system failures</li>
+                    <li>Deploy and centrally administer security and antivirus software for all devices in the organization</li>
+                    <li>Perform third level troubleshooting by visiting customer's premise to investigate and resolve escalations accordingly if unresolved remotely within SLA time frame</li>
+                    <li>KA Band VSAT Training, installation and Support</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled">
+            <li><h4>Field Service Engineer, Infinite Holdings Ltd</h4>
+                <ul>
+                    <li>Assembled, aligned, and installed equipment (solar, inverter, CCTV and access control) as necessary</li>
+                    <li>Inspection of assembled equipment, to ensure proper installation</li>
+                    <li>Performed routine maintenance on systems, and assist in establishing preventative maintenance schedules with customer</li>
+                    <li>Clearly interact with customers, regarding status of commissioning, on daily basis</li>
+                    <li>Troubleshooting of CCTV and access control systems at various sites</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr >
+
+        <h4><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&emsp;<b>Education</b></h4>
+        <ul class="list-unstyled">
+            <li>B.ENG in Computer Engineering &ensp; &ensp;&ensp;&ensp;2008 - 2014
+                <ul class="list-unstyled">
+                    <li>BAYERO UNIVERSITY KANO</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="list-unstyled">
+            <li>Post Graduate Diploma in Management Science &ensp; &ensp;&ensp;&ensp;2019 - 2020
+                <ul class="list-unstyled">
+                    <li>University of Maiduguri</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr >
+        <h4><i class="fa fa-puzzle-piece" aria-hidden="true"></i>&nbsp;&emsp;<b>Hands on Learning</b></h4>
+        <ul class="list-unstyled">
+            <li>TryHackMe Rank of Master&ensp; &ensp;&ensp;&ensp;June 2020 - till present
+                <ul class="list-unstyled">
+                    <li><a href="https://tryhackme.com/p/sammiie">https://tryhackme.com/p/sammiie</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="list-unstyled">
+            <li>HackTheBox &ensp; &ensp;&ensp;&ensp;May 2020 - Present</li>
+        </ul>
+        <ul class="list-unstyled">
+            <li>Let's Defend &ensp; &ensp;&ensp;&ensp;January 2021 - Present</li>
+        </ul>
+
+    </div>
+</div>
+{% endblock %}
